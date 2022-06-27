@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <title>Máquina de Turing - Cano Román Edgar Israel</title>
+</head>
+<body>
+    <header class="header">
+        <img class="header__img"src="logo.png">
+        <p class="header__p header__p--tese">TECNOLÓGICO DE ESTUDIOS SUPERIORES DE ECATEPEC</p>
+        <p class="header__p header__p--len">Lenguajes y Autómatas I<br>Cano R. Edgar</p>
+    </header>
+    <main class="main">
+        <h1 class="main__h1">Máquina de Turing - Equipo 6</h1>
+        <div class="main__cont main__cont--1">
+            <label class="main__cont__label" for="bin">Ingrese el número al que desea aplicar un incremento: <b>(++)</b></label>
+            <input class="main__cont__input" type="text" name="bin" maxlength="4">
+            <button class="main__cont__button main__cont__button--com">¡Comenzar!</button>
+        </div>
+        <div class="main__maquina">
+            <div class="main__maquina__espacio main__maquina__espacio0"></div>
+            <div class="main__maquina__espacio main__maquina__espacio1"></div>
+            <div class="main__maquina__espacio main__maquina__espacio2"></div>
+            <div class="main__maquina__espacio main__maquina__espacio3"></div>
+            <div class="main__maquina__cabezal">R / W<br>0 / 1</div>
+            <div class="main__maquina__resultado"></div>
+        </div>
+
+        <div class="main__cont main__cont--2">
+            <button class="main__cont__button main__cont--2__button--rei" disabled>Reinciar</button>
+            <div class="main__cont--2__div">Estado Actual: <b class="main__cont--2__div__q">q0</b></div>
+            <button class="main__cont__button main__cont--2__button--sig" disabled>Siguiente</button>
+        </div>
+
+
+
+
+    </main>
+
+
+        
+    
+</body>
+</html>
